@@ -1,3 +1,21 @@
+"""
+Resistor Band Display Program
+You all know that in an electronic circuit, the value of a resistor is coveyed using cour
+band, where every color band has significance.
+Suppose a resistor has a value 6.2 kΩ ±5 percent. The resistor tolerance of ±5 percent
+indicates the acceptable variation in the resistance. A 6.2 kΩ ±5 percent resistor could
+have a resistance as small as 5.89 kΩ or as large as 6.51 kΩ.
+We say that 6.2 kΩ is the nominal value of the resistance and that the actual value of the
+resistance can be any value between 5.89 kΩ and 6.51 kΩ.
+Now write a program outputs the description of the “color bands” for an input given by
+the user as nominal value of the resistance and tolerance in percentage.
+A resistor has four color bands:
+• The first band is the first significant digit of the resistance value.
+• The second band is the second significant digit of the resistance value.
+• The third band is the decimal multiplier.
+• The fourth band indicates the tolerance.
+
+"""
 print("Enter resistance ")
 resistance = input().split("+")
 print(resistance)
