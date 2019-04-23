@@ -1,3 +1,8 @@
+"""
+With a given list of numbers where certain numbers are repeated 
+Print the numbers which are not repeated with their order preserved
+"""
+
 lis=[12,24,35,24,88,120,155,88,120,155]
 
 oplis=[]
